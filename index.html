@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <main class="wrapper"></main>
+    <div class="parallax">
+        <div v-on:click="show" id="text-main">
+            <p class="input">{{ mainText }}</p>
+        </div>
+    </div>
+
+    <div id="after">
+        What's that???
+    <!--<div id ="video">
+     <iframe src="https://player.vimeo.com/video/302779189" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+    </div>-->
+    </div>
+
+
+</main>
+<script src="js/main.js"></script>
+</body>
+</html>
