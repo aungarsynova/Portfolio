@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1199.47 1200">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.43;
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #eaefea;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke: #362d42;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-5 {
+        stroke-width: 21px;
+      }
+
+      .cls-3 {
+        stroke-width: 23px;
+      }
+
+      .cls-4 {
+        fill: #dd2527;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #362d42;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="106.36" y1="1090.3" x2="1093.64" y2="103.03" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d078b1"/>
+      <stop offset="1" stop-color="#5294d0"/>
+    </linearGradient>
+  </defs>
+  <title>moGraph</title>
+  <g id="bckgrd">
+    <path class="cls-1" d="M1199.73,368.18C1199.73,163,1041.08-3.33,845.38-3.33c-165,0-303.74,118.31-343.14,278.45h0c-99.1,176.3-175.87,178.53-175.87,178.53.08.39.17.77.25,1.15C144,469.77.27,629.86.27,825.16c0,205.18,158.65,371.51,354.35,371.51,139.35,0,259.89-84.35,317.77-207v0l.21-.49c1-2.1,2-4.22,2.91-6.34,15.55-32.36,91.73-172.46,282.79-262.46a344.13,344.13,0,0,0,43.12-18.62l.17-.07c12.25-4.83,21.69-10.4,28.62-16.53C1131.89,619.89,1199.73,502.34,1199.73,368.18Z" transform="translate(-0.27 3.33)"/>
+    <path class="cls-2" d="M316,271.61" transform="translate(-0.27 3.33)"/>
+  </g>
+  <g id="Layer_6" data-name="Layer 6">
+    <polygon class="cls-3" points="1369.29 903.41 1369.29 903.41 1369.29 903.41 1369.29 903.41 1369.29 903.41"/>
+    <path class="cls-4" d="M297,729" transform="translate(-0.27 3.33)"/>
+    <path class="cls-5" d="M876.72,480.66h-.35c-2.27-144-118.43-260-261.41-260s-259.14,116-261.41,260.05h-.06V801.37h0V839.3A57.82,57.82,0,0,0,411.15,897h0a57.83,57.83,0,0,0,57.66-57.66V801.37h72.93V814A73.44,73.44,0,0,0,615,887.18h0A73.44,73.44,0,0,0,688.19,814V801.37h72.92v66A57.83,57.83,0,0,0,818.77,925h0a57.82,57.82,0,0,0,57.65-57.66v-66h.3Z" transform="translate(-0.27 3.33)"/>
+    <circle class="cls-61" cx="464.83" cy="460.93" r="33"/>
+    <ellipse class="cls-61" cx="614.84" cy="526.93" rx="16.5" ry="27.74"/>
+    <circle class="cls-61" cx="752.82" cy="460.93" r="33"/>
+    <circle class="cls-6" cx="275.04" cy="266.64" r="8.3"/>
+    <circle class="cls-6" cx="374.6" cy="181.71" r="21.38"/>
+    <circle class="cls-6" cx="1086.73" cy="598.33" r="16"/>
+    <circle class="cls-6" cx="1067.23" cy="686.83" r="3.5"/>
+    <circle class="cls-6" cx="201.73" cy="841.33" r="11"/>
+    <circle class="cls-6" cx="57.44" cy="666.2" r="14.71"/>
+    <circle class="cls-6" cx="839.73" cy="1071.33" r="13"/>
+    <circle class="cls-6" cx="1019.23" cy="88.83" r="4.5"/>
+  </g>
+</svg>

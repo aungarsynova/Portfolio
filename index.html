@@ -6,12 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-    <title>Portfolio</title>
+    <title>Home</title>
 </head>
 <body>
-    <main class="wrapper"></main>
+        <nav role="navigation">
+                <div class="logo">
+             
+                        <a href="index.html"><img src="images/logo.svg" class="sotiredofthis"></a>
+                    
+                </div>
+                <div id="menuToggle">
+                  <!-- fake on click-->
+                  <input type="checkbox" />
+                  
+                  <!-- Hamburger nom nom -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                
+                  <ul id="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="gallery.html"><li>Work</li></a>
+                    <a href="contactme.html"><li>Contact</li></a>
+                  </ul>
+                </div>
+              </nav>
+
+    <main class="wrapper">
     <div class="parallax">
         <div v-on:click="show" id="text-main">
             <p class="input">{{ mainText }}</p>
@@ -19,10 +47,21 @@
     </div>
 
     <div id="after">
-        What's that???
-    <!--<div id ="video">
-     <iframe src="https://player.vimeo.com/video/302779189" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-    </div>-->
+        <p>Watch my demo reel</p>
+            <div class="=wow">
+                    <video controls="controls" class="center"  style="width:600px; height:337.5px">
+                      <source src="video/demoReel.mp4" type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+            </div>
+            <!-- <section class = "ihatethis">
+            <video id="video" controls style="width:600px; height:337.5px">
+                <source id="mp4" src="video/demoReel.mp4" type="video/mp4">
+                <p>Your browser does not support HTML5 Video</p>
+            </video>
+            </section> -->
+       
+
     </div>
 
 

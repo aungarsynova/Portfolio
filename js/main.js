@@ -1,8 +1,8 @@
+//MAIN
 const vm = new Vue({
     el : "#text-main",
     data : {
-       mainText: " "
-        
+       mainText: " ",
     },
 
     created : function() {
@@ -46,3 +46,18 @@ function parseTextData(text) {
     document.querySelector(".input").textContent = text;
     
 };
+
+
+anime({
+    targets: '.input',
+    opacity: 1,
+    translateY: -30,
+    easing: 'linear',
+    duration: 3000,
+    autoplay: true
+   
+  });
+
+ 
+
+

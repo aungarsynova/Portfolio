@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/anime.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Gallery</title>
+</head>
+
+<body>
+    
+<main>
+        <nav role="navigation">
+                <div class="logo">
+             
+                        <a href="index.html"><img src="images/logo.svg" class="sotiredofthis"></a>
+                    
+                </div>
+                <div id="menuToggle">
+                  <!--Fake on click cuz pure css -->
+                  <input type="checkbox" />
+                  
+                  <!-- Hamburger nom nom-->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+            
+                  <ul id="menu">
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="gallery.html"><li>Work</li></a>
+                    <a href="contactme.html"><li>Contact</li></a>
+                  </ul>
+                </div>
+              </nav>
+
+        <section class="gal-wrapper">
+            <h1>Some of my design and MoGraph works</h1>
+
+            <div class="cont">
+            <figure class="gal-img">
+                <img src="images/img1.jpg" id="1">
+                <figcaption>
+                        <h2>{{ hoverText }}</h2>
+                      </figcaption>
+            </figure>
+            </div>
+
+            <div class="cont">
+            <figure class="gal-img">
+                <img src="images/img2.jpg">
+                <figcaption class="gohere" id="2">
+                        <h2> {{ hoverText }}</h2>
+                      </figcaption>
+                    </figure>
+            </div>
+
+            <div class="cont">
+            <figure class="gal-img">
+                <img src="images/img3.gif" id="3">
+                <figcaption>
+                        <h2>Test</h2>
+                      </figcaption>
+                    </figure>
+            </div>
+
+            <div class="cont">
+                    <figure class="gal-img">
+                        <img src="images/img4.png" id="4" height="494"> 
+                        <figcaption>
+                                <h2>Test</h2>
+                              </figcaption>
+                            </figure>
+                    </div>
+
+         </section>      
+       
+</main>
+<script src="js/gallery.js"></script>
+</body>
+</html>
