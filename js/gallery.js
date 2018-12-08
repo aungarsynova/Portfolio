@@ -1,7 +1,7 @@
 const vm = new Vue({
     el : ".gohere",
     data : {
-       hoverText: " ",
+        imageDescription: " ",
     },
 
     created : function() {
@@ -11,7 +11,7 @@ const vm = new Vue({
     methods: {
         getImageData(e) {
             //debugger;
-            let targetURL = `./includes/gal.php`;
+            let targetURL = `./includes/gal.php?imageNumber=${e.currentTarget.id}`;
 
             fetch(targetURL)
             .then(res => res.json())
@@ -32,17 +32,17 @@ const vm = new Vue({
         
     showImageData(data) {
         //change VM content here and make it show up on the page
-       this.hoverText = data.text
+       this.imageDescription = data.galtext
       
      }
     }
 });
 
-function parseImageData(text) {
+function parseImageData(car) {
     //destructure thed database info and grab just what we need
-    const { text } = hoverText;
+    const {imageDescription} = car;
     //take the database data and put it on the page
-    document.querySelector(".gohere").textContent = text;
+    document.querySelector(".gohere").textContent = galtext;
     
 };
 
