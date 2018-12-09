@@ -1,9 +1,18 @@
 # Portfolio
-Final project Semester 1 Year 2
+Final Integrated Project for Semester II, Year II.
 
-Tried to make database call work for my gallery, failed miserably
-You can see the evidence of my embarassing attempts in php files, but I gave up and just put in stuff like we did before.
+# To view the project you will need
+1. Installed local server (WAMP for Windows machines and MAMP for Mac)
+2. Edit database access information inside PHP files like username (default: root) and a password ("root" for Mac and empty for Windows)
 
-Used tutorials and codes from codepen and vuejzexamples.com. Links are there as a comments
+# Libraries and extensions used for this project
+1. Vue.js - Jaascript framework.
+2. SASS (Syntactically Awesome Style Sheets) - CSS extension language.
+3. AJAX - a technique for creating fast and dynamic web pages.
+4. Anime.js -  a lightweight JavaScript animation library.
+5. ScrollReveal - JavaScript library for easily animating elements as they enter/leave the viewport.
 
-Video player is not my custom one, it is just a HTML5 video player 
+# Design and Development by:
+Aisana Ungarsynova
+
+
