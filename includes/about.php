@@ -4,6 +4,7 @@ $password = ""; //blank for windows, root for mac
 $host = "localhost";
 $db = "portfolio";
 
+
 // Check connection
 $conn = mysqli_connect($host, $user, $password, $db);
 if ($conn->connect_error) {
