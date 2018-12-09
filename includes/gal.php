@@ -1,6 +1,6 @@
 <?php
 $user = "root";
-$password = ""; //blank for windows, root for mac
+$password = " "; //blank for windows, root for mac
 $host = "localhost";
 $db = "portfolio";
 
@@ -11,9 +11,10 @@ if ($conn->connect_error) {
     echo "Connection failed";
 } 
 
-// if (isset($_GET["imgText"])) { // check for a parametr ?carModel=R58
-//     $car = $_GET["imgText"];
-$myQuery = "SELECT * FROM tbl_gallery";
+ if (isset($_GET["imageNumber"])) { // check for a parametr ?carModel=R58
+   $car = $_GET["imageNumber"];
+   
+$myQuery = "SELECT * FROM tbl_gallery WHERE galtext = '$car'";
 
 $result = mysqli_query($conn, $myQuery);
 
