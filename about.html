@@ -15,6 +15,7 @@
 </head>
 <body>
         <nav role="navigation">
+                <h1 class="hidden">Navigation</h1>
                         <div class="logo">
              
                                         <a href="index.html"><img src="images/logo.svg" class="sotiredofthis"></a>
@@ -34,7 +35,7 @@
                     <a href="index.html"><li>Home</li></a>
                     <a href="about.html"><li>About</li></a>
                     <a href="gallery.html"><li>Work</li></a>
-                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="includes/index.php"><li>Contact</li></a>
                   </ul>
                 </div>
               </nav>
@@ -42,12 +43,14 @@
 
     <main class="about-wrapper">
     <div class="about-stuff">
+            <h1 class="hidden">About me info</h1>
         <h1>I have something to tell you</h1>
 
                 <div v-on:click="show" id="text-main2">
                     <p class="input2">{{ mainText }}</p>
                 </div>
-
+        
+                <h1 class="hidden">Icons</h1>
         <div class="svg-wrap">
         <section class="part">
                 <object data="images/graphicDesign.svg" type="image/svg+xml" id="1" data-roundaboutindex="1" class="svg-graphic"></object>
