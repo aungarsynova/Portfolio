@@ -1,8 +1,8 @@
 <?php
-$user = "root";
-$password = ""; //blank for windows, root for mac
-$host = "localhost";
-$db = "portfolio";
+$user = "aung";
+$password = "aungdatabase1Tompa"; //blank for windows, root for mac
+$host = "198.71.225.52";
+$db = "ph13684491604_";
 
 
 // Check connection
