@@ -33,7 +33,7 @@
                     <a href="../index.html"><li>Home</li></a>
                     <a href="../about.html"><li>About</li></a>
                     <a href="../gallery.html"><li>Work</li></a>
-                    <a href="../index.php"><li>Contact</li></a>
+                    <a href="index.php"><li>Contact</li></a>
                   </ul>
                 </div>
               </nav>
